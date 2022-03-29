@@ -10,8 +10,28 @@ jobs:
     strategy:
       matrix:
         include:
+          - bot_name: Blurple Canvas
+            secret: BLURPLE_CANVAS_TOKEN
           - bot_name: Blurple Hammer
             secret: BLURPLE_HAMMER_TOKEN
+          - bot_name: Blurple Worker 1
+            secret: BLURPLE_WORKER_1_TOKEN
+          - bot_name: Blurple Worker 2
+            secret: BLURPLE_WORKER_2_TOKEN
+          - bot_name: Blurple Worker 3
+            secret: BLURPLE_WORKER_3_TOKEN
+          - bot_name: Blurplecrafted 1
+            secret: BLURPLECRAFTED_1_TOKEN
+          - bot_name: Blurplecrafted 2
+            secret: BLURPLECRAFTED_2_TOKEN
+          - bot_name: Blurplefied
+            secret: BLURPLEFIED_TOKEN
+          - bot_name: Blurplefier 1
+            secret: BLURPLEFIER_1_TOKEN
+          - bot_name: Blurplefier 2
+            secret: BLURPLEFIER_2_TOKEN
+          - bot_name: BlurpleMail
+            secret: BLURPLEMAIL_TOKEN
 
     name: ${{ matrix.bot_name }}
     runs-on: ubuntu-latest

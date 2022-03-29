@@ -1,0 +1,31 @@
+name: Bot Icon Sync
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    matrix:
+      include:
+        - bot_name: Blurple Hammer
+          bot_token: ${{ secrets.BLURPLE_HAMMER_TOKEN }}
+
+    name: ${{ matrix.bot_name }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Change image of ${{ matrix.bot_name }}
+        run: npm run start
+        env:
+          NAME: ${{ matrix.bot_name }}
+          TOKEN: ${{ matrix.bot_token }}

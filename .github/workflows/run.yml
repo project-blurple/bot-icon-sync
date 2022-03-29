@@ -7,10 +7,11 @@ on:
 
 jobs:
   run:
-    matrix:
-      include:
-        - bot_name: Blurple Hammer
-          bot_token: ${{ secrets.BLURPLE_HAMMER_TOKEN }}
+    strategy:
+      matrix:
+        include:
+          - bot_name: Blurple Hammer
+            bot_token: ${{ secrets.BLURPLE_HAMMER_TOKEN }}
 
     name: ${{ matrix.bot_name }}
     runs-on: ubuntu-latest

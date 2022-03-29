@@ -11,7 +11,7 @@ jobs:
       matrix:
         include:
           - bot_name: Blurple Hammer
-            bot_token: ${{ secrets.BLURPLE_HAMMER_TOKEN }}
+            secret: BLURPLE_HAMMER_TOKEN
 
     name: ${{ matrix.bot_name }}
     runs-on: ubuntu-latest
@@ -29,4 +29,4 @@ jobs:
         run: npm run start
         env:
           NAME: ${{ matrix.bot_name }}
-          TOKEN: ${{ matrix.bot_token }}
+          TOKEN: ${{ secrets[matrix.secret] }}

@@ -3,7 +3,7 @@
   "main": "build",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint ./src --max-warnings=0",
+    "lint": "eslint ./src",
     "start": "node .",
     "watch": "tsc -w"
   },
@@ -12,7 +12,7 @@
     "superagent": "^7.1.2"
   },
   "devDependencies": {
-    "@biaw/eslint-config": "^1.0.2",
+    "@promise/eslint-config": "github:promise/eslint-config",
     "@tsconfig/node16-strictest": "^1.0.0",
     "@types/node": "^16.11.26",
     "@types/superagent": "^4.1.15",
@@ -20,7 +20,7 @@
     "typescript": "^4.6.3"
   },
   "eslintConfig": {
-    "extends": "@biaw",
+    "extends": "@promise",
     "rules": {
       "no-console": "off"
     }

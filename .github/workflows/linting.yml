@@ -18,8 +18,16 @@ jobs:
       with:
         node-version: "16.x"
 
-    - name: Install dependencies
-      run: npm install
+    - name: Restore cached modules
+      uses: actions/cache@v2
+      id: cache-packages
+      with:
+        path: node_modules
+        key: ${{ hashFiles('**/package-lock.json') }}
+
+    - name: Fallback if module cache fails
+      run: npm ci
+      if: steps.cache-packages.outputs.cache-hit != 'true'
 
     - name: Run ESLint
       run: npm run lint

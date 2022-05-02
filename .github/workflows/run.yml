@@ -57,7 +57,7 @@ jobs:
         key: ${{ hashFiles('**/package-lock.json') }}
 
     - name: Fallback if module cache fails
-      run: npm install
+      run: npm ci
       if: steps.cache-packages.outputs.cache-hit != 'true'
 
     - name: Restore cached build

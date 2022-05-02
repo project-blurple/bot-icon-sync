@@ -1,43 +1,12 @@
-name: Bot Icon Sync
+name: Typescript
 
 on:
-  schedule:
-    - cron: "0 6,18 * * *"
-  workflow_dispatch:
+  push:
+  pull_request:
 
 jobs:
-  run:
-    strategy:
-      matrix:
-        include:
-        - bot_name: Blurple Canvas
-          secret: BLURPLE_CANVAS_TOKEN
-        - bot_name: Blurple Giveaways
-          secret: BLURPLE_GIVEAWAYS_TOKEN
-        - bot_name: Blurple Hammer
-          secret: BLURPLE_HAMMER_TOKEN
-        - bot_name: Blurple Karaoke
-          secret: BLURPLE_KARAOKE_TOKEN
-        - bot_name: Blurple Worker 1
-          secret: BLURPLE_WORKER_1_TOKEN
-        - bot_name: Blurple Worker 2
-          secret: BLURPLE_WORKER_2_TOKEN
-        - bot_name: Blurple Worker 3
-          secret: BLURPLE_WORKER_3_TOKEN
-        - bot_name: Blurplecrafted 1
-          secret: BLURPLECRAFTED_1_TOKEN
-        - bot_name: Blurplecrafted 2
-          secret: BLURPLECRAFTED_2_TOKEN
-        - bot_name: Blurplefied
-          secret: BLURPLEFIED_TOKEN
-        - bot_name: Blurplefier 1
-          secret: BLURPLEFIER_1_TOKEN
-        - bot_name: Blurplefier 2
-          secret: BLURPLEFIER_2_TOKEN
-        - bot_name: BlurpleMail
-          secret: BLURPLEMAIL_TOKEN
-
-    name: ${{ matrix.bot_name }}
+  test:
+    name: Test Build
     runs-on: ubuntu-latest
 
     steps:
@@ -49,30 +18,24 @@ jobs:
       with:
         node-version: "16.x"
 
-    - name: Restore cached modules
+    - name: Set up module cache
       uses: actions/cache@v2
       id: cache-packages
       with:
         path: node_modules
         key: ${{ hashFiles('**/package-lock.json') }}
 
-    - name: Fallback if module cache fails
+    - name: Install dependencies
       run: npm install
       if: steps.cache-packages.outputs.cache-hit != 'true'
 
-    - name: Restore cached build
+    - name: Set up build cache
       uses: actions/cache@v2
       id: cache-build
       with:
         path: build
         key: ${{ github.sha }}
 
-    - name: Fallback if build cache fails
+    - name: Build project
       run: npm run build
       if: steps.cache-build.outputs.cache-hit != 'true'
-
-    - name: Change image of ${{ matrix.bot_name }}
-      run: npm run start
-      env:
-        NAME: ${{ matrix.bot_name }}
-        TOKEN: ${{ secrets[matrix.secret] }}

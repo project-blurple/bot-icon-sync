@@ -20,8 +20,8 @@ jobs:
           secret: BLURPLE_GIVEAWAYS_TOKEN
         - bot_name: Blurple Hammer
           secret: BLURPLE_HAMMER_TOKEN
-        - bot_name: Blurple Karaoke
-          secret: BLURPLE_KARAOKE_TOKEN
+        - bot_name: Blurple Radio
+          secret: BLURPLE_RADIO_TOKEN
         - bot_name: Blurple Worker 1
           secret: BLURPLE_WORKER_1_TOKEN
         - bot_name: Blurple Worker 2

@@ -12,6 +12,10 @@ jobs:
         include:
         - bot_name: Blurple Canvas
           secret: BLURPLE_CANVAS_TOKEN
+        - bot_name: Blurple Chairs
+          secret: BLURPLE_CHAIRS_TOKEN
+        - bot_name: Blurple Contests
+          secret: BLURPLE_CONTESTS_TOKEN
         - bot_name: Blurple Giveaways
           secret: BLURPLE_GIVEAWAYS_TOKEN
         - bot_name: Blurple Hammer

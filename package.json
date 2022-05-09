@@ -15,7 +15,7 @@
     "@tsconfig/node16-strictest": "^1.0.1",
     "@types/node": "^16.11.33",
     "@types/superagent": "^4.1.15",
-    "eslint": "^8.14.0",
+    "eslint": "^8.15.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "^4.6.4"
   },

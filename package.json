@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@tsconfig/node16-strictest": "^1.0.1",
-    "@types/node": "^16.11.35",
+    "@types/node": "^16.11.36",
     "@types/superagent": "^4.1.15",
     "eslint": "^8.15.0",
     "eslint-config-promise": "github:promise/eslint-config",

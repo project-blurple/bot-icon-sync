@@ -12,7 +12,7 @@
     "superagent": "^7.1.6"
   },
   "devDependencies": {
-    "@tsconfig/node16-strictest": "^1.0.2",
+    "@tsconfig/node16-strictest": "^1.0.3",
     "@types/node": "^18.0.0",
     "@types/superagent": "^4.1.15",
     "eslint": "^8.17.0",

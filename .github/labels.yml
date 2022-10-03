@@ -1,0 +1,67 @@
+# GitHub
+
+- name: "bug"
+  color: "D73A4A"
+  description: "Something isn't working"
+
+- name: "duplicate"
+  color: "CFD3D7"
+  description: "This issue or pull request already exists"
+
+- name: "enhancement"
+  color: "A2EEEF"
+  description: "New feature or request"
+
+- name: "good first issue"
+  color: "7057FF"
+  description: "Good for newcomers"
+
+- name: "help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "invalid"
+  color: "E4E669"
+  description: "This doesn't seem right"
+
+- name: "repository"
+  color: "C2E0C6"
+  description: "Improves or adds to the repository"
+
+
+# Renovate
+
+- name: "dependencies"
+  color: "0366D6"
+  description: "Updates one or more dependencies"
+
+- name: "auto-merge"
+  color: "10A631"
+  description: "Bot auto-merges"
+
+- name: "stop-updating"
+  color: "B60205"
+  description: "Bot stops updating"
+
+
+# project-blurple/bot-icon-sync
+
+- name: "code-changes"
+  color: "D73A4A"
+  description: "Code changes"
+
+- name: "icon-additions"
+  color: "0E8A16"
+  description: "Icon additions"
+
+- name: "icon-deletions"
+  color: "D73A4A"
+  description: "Icon deletions"
+
+- name: "icon-renames"
+  color: "F9D0C4"
+  description: "Icon renames"
+
+- name: "icon-updates"
+  color: "0E8A16"
+  description: "Icon updates"

@@ -1,0 +1,12 @@
+# GitHub
+
+repository:
+- "*"
+- ".github/**/*"
+- ".docker/**/*"
+
+
+# project-blurple/bot-icon-sync
+
+code-changes:
+- "src/**/*"

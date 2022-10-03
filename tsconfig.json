@@ -3,9 +3,6 @@
   "extends": "@tsconfig/node16-strictest",
   "compilerOptions": {
     "outDir": "./build",
-    "experimentalDecorators": true,
-    "noImplicitReturns": false,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": false
+    "experimentalDecorators": true
   }
 }

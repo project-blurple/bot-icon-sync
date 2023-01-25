@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "dotenv": "16.0.3",
-    "superagent": "8.0.8"
+    "superagent": "8.0.9"
   },
   "devDependencies": {
     "@tsconfig/node16-strictest": "1.0.4",

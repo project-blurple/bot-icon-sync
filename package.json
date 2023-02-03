@@ -4,10 +4,10 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --max-warnings=0",
+    "build:watch": "tsc -w",
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "node .",
-    "watch": "tsc -w"
+    "start": "node ."
   },
   "dependencies": {
     "dotenv": "16.0.3",

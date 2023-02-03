@@ -42,26 +42,3 @@
 - name: "stop-updating"
   color: "B60205"
   description: "Bot stops updating"
-
-
-# project-blurple/bot-icon-sync
-
-- name: "code-changes"
-  color: "D73A4A"
-  description: "Code changes"
-
-- name: "icon-additions"
-  color: "0E8A16"
-  description: "Icon additions"
-
-- name: "icon-deletions"
-  color: "D73A4A"
-  description: "Icon deletions"
-
-- name: "icon-renames"
-  color: "F9D0C4"
-  description: "Icon renames"
-
-- name: "icon-updates"
-  color: "0E8A16"
-  description: "Icon updates"

@@ -1,11 +1,12 @@
-import "dotenv/config";
-import type { RESTError, RESTPatchAPICurrentUserJSONBody, RESTPatchAPICurrentUserResult } from "discord-api-types/v10";
-import { RouteBases, Routes } from "discord-api-types/v10";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
+import type { RESTError, RESTPatchAPICurrentUserJSONBody, RESTPatchAPICurrentUserResult } from "discord-api-types/v10";
+import { RouteBases, Routes } from "discord-api-types/v10";
+import { config } from "dotenv";
 import type request from "superagent";
 import superagent from "superagent";
 
+config();
 const { NAME = "", TOKEN = "" } = process.env;
 if (!NAME || !TOKEN) throw new Error("Missing environment variables");
 

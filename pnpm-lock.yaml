@@ -4,7 +4,7 @@ specifiers:
   '@tsconfig/node18-strictest': 1.0.0
   '@types/node': 18.15.2
   '@types/superagent': 4.1.16
-  discord-api-types: 0.37.35
+  discord-api-types: 0.37.36
   dotenv: 16.0.3
   eslint: 8.36.0
   eslint-config-promise: github:promise/eslint-config
@@ -19,7 +19,7 @@ devDependencies:
   '@tsconfig/node18-strictest': 1.0.0
   '@types/node': 18.15.2
   '@types/superagent': 4.1.16
-  discord-api-types: 0.37.35
+  discord-api-types: 0.37.36
   eslint: 8.36.0
   eslint-config-promise: github.com/promise/eslint-config/419f0fbf9137a3a2b71686b0283718365756312b_jpalyieylsbpjrtzdvsi36kkmy
   typescript: 4.9.5
@@ -509,8 +509,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /discord-api-types/0.37.35:
-    resolution: {integrity: sha512-iyKZ/82k7FX3lcmHiAvvWu5TmyfVo78RtghBV/YsehK6CID83k5SI03DKKopBcln+TiEIYw5MGgq7SJXSpNzMg==}
+  /discord-api-types/0.37.36:
+    resolution: {integrity: sha512-Nlxmp10UpVr/utgZ9uODQvG2Or+5w7LFrvFMswyeKC9l/+UaqGT6H0OVgEFhu9GEO4U6K7NNO5W8Carv7irnCA==}
     dev: true
 
   /doctrine/2.1.0:

@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tsconfig/node18-strictest': 1.0.0
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   discord-api-types: 0.37.36
   dotenv: 16.0.3
@@ -17,7 +17,7 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node18-strictest': 1.0.0
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   discord-api-types: 0.37.36
   eslint: 8.36.0
@@ -132,8 +132,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.15.2:
-    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
     dev: true
 
   /@types/semver/7.3.13:
@@ -144,7 +144,7 @@ packages:
     resolution: {integrity: sha512-tLfnlJf6A5mB6ddqF159GqcDizfzbMUB1/DeT59/wBNqzRTNNKsaw79A/1TZ84X+f/EwWH8FeuSkjlCLyqS/zQ==}
     dependencies:
       '@types/cookiejar': 2.1.2
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.54.1_4rfaf6mlw2mmutqjcopwvbftpu:

@@ -17,7 +17,7 @@
     "@tsconfig/node18-strictest": "1.0.0",
     "@types/node": "18.16.0",
     "@types/superagent": "4.1.16",
-    "discord-api-types": "0.37.39",
+    "discord-api-types": "0.37.40",
     "eslint": "8.39.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "4.9.5"

@@ -19,8 +19,8 @@ devDependencies:
     specifier: 4.1.17
     version: 4.1.17
   discord-api-types:
-    specifier: 0.37.40
-    version: 0.37.40
+    specifier: 0.37.41
+    version: 0.37.41
   eslint:
     specifier: 8.39.0
     version: 8.39.0
@@ -524,8 +524,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /discord-api-types@0.37.40:
-    resolution: {integrity: sha512-LMALvtO+p6ERK8rwWoaI490NfIE/egbqjR4/rfLL1z9gQE1gqLiTpIUUDIunfAtKYzeH6ucyXhaXXWpfZh/Q6g==}
+  /discord-api-types@0.37.41:
+    resolution: {integrity: sha512-FaPGBK9hx3zqSRX1x3KQWj+OElAJKmcyyfcdCy+U4AKv+gYuIkRySM7zd1So2sE4gc1DikkghkSBgBgKh6pe4Q==}
     dev: true
 
   /doctrine@2.1.0:

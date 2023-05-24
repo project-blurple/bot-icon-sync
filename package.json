@@ -16,7 +16,7 @@
   "devDependencies": {
     "@tsconfig/node18-strictest": "1.0.0",
     "@types/node": "18.16.14",
-    "@types/superagent": "4.1.17",
+    "@types/superagent": "4.1.18",
     "discord-api-types": "0.37.42",
     "eslint": "8.41.0",
     "eslint-config-promise": "github:promise/eslint-config",

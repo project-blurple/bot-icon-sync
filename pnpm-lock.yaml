@@ -23,14 +23,14 @@ devDependencies:
     specifier: 4.1.18
     version: 4.1.18
   discord-api-types:
-    specifier: 0.37.43
-    version: 0.37.43
+    specifier: 0.37.45
+    version: 0.37.45
   eslint:
     specifier: 8.42.0
     version: 8.42.0
   eslint-config-promise:
     specifier: github:promise/eslint-config
-    version: github.com/promise/eslint-config/909737d54527ff6ee7ab513aa3e517dfdd8899fc(@typescript-eslint/eslint-plugin@5.59.11)(@typescript-eslint/parser@5.59.11)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-react@7.32.2)(eslint@8.42.0)
+    version: github.com/promise/eslint-config/6a5c4ac0c9043c2e68b44495bc95fa4791d360df(@typescript-eslint/eslint-plugin@5.59.11)(@typescript-eslint/parser@5.59.11)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-react@7.32.2)(eslint@8.42.0)
   typescript:
     specifier: 4.9.5
     version: 4.9.5
@@ -565,8 +565,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /discord-api-types@0.37.43:
-    resolution: {integrity: sha512-bBhDWU3TF9KADxR/mHp1K4Bvu/LRtFQdGyBjADu4e66F3ZnD4kp12W/SJCttIaCcMXzPV3sfty6eDGRNRph51Q==}
+  /discord-api-types@0.37.45:
+    resolution: {integrity: sha512-r9m/g+YQfo7XWMrl645jvMlYoWF8lvns/ch4NCxsz/FbingrECu97LFSD2zKOvgHaSc90BHP8wgshaMcA2/c6Q==}
     dev: true
 
   /doctrine@2.1.0:
@@ -2114,9 +2114,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/promise/eslint-config/909737d54527ff6ee7ab513aa3e517dfdd8899fc(@typescript-eslint/eslint-plugin@5.59.11)(@typescript-eslint/parser@5.59.11)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-react@7.32.2)(eslint@8.42.0):
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/909737d54527ff6ee7ab513aa3e517dfdd8899fc}
-    id: github.com/promise/eslint-config/909737d54527ff6ee7ab513aa3e517dfdd8899fc
+  github.com/promise/eslint-config/6a5c4ac0c9043c2e68b44495bc95fa4791d360df(@typescript-eslint/eslint-plugin@5.59.11)(@typescript-eslint/parser@5.59.11)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-react@7.32.2)(eslint@8.42.0):
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/6a5c4ac0c9043c2e68b44495bc95fa4791d360df}
+    id: github.com/promise/eslint-config/6a5c4ac0c9043c2e68b44495bc95fa4791d360df
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:

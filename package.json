@@ -14,13 +14,14 @@
     "superagent": "8.0.9"
   },
   "devDependencies": {
-    "@tsconfig/node18-strictest": "1.0.0",
+    "@tsconfig/node18": "18.2.0",
+    "@tsconfig/strictest": "2.0.1",
     "@types/node": "18.16.19",
     "@types/superagent": "4.1.18",
     "discord-api-types": "0.37.48",
     "eslint": "8.44.0",
     "eslint-config-promise": "github:promise/eslint-config",
-    "typescript": "4.9.5"
+    "typescript": "5.1.6"
   },
   "eslintConfig": {
     "extends": "promise",

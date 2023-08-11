@@ -20,8 +20,8 @@ devDependencies:
     specifier: 2.0.1
     version: 2.0.1
   '@types/node':
-    specifier: 18.17.4
-    version: 18.17.4
+    specifier: 18.17.5
+    version: 18.17.5
   '@types/superagent':
     specifier: 4.1.18
     version: 4.1.18
@@ -33,7 +33,7 @@ devDependencies:
     version: 8.47.0
   eslint-config-promise:
     specifier: github:promise/eslint-config
-    version: github.com/promise/eslint-config/8465168d478a90004c4897ee20f0030543c01d05(@typescript-eslint/eslint-plugin@6.3.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-i@2.27.5)(eslint-plugin-jest@27.2.3)(eslint-plugin-react@7.33.1)(eslint@8.47.0)
+    version: github.com/promise/eslint-config/909147788f2b4540444924b7958df4b71e006013(@typescript-eslint/eslint-plugin@6.3.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-i@2.27.5)(eslint-plugin-jest@27.2.3)(eslint-plugin-react@7.33.1)(eslint@8.47.0)
   typescript:
     specifier: 5.1.6
     version: 5.1.6
@@ -139,8 +139,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@18.17.4:
-    resolution: {integrity: sha512-ATL4WLgr7/W40+Sp1WnNTSKbgVn6Pvhc/2RHAdt8fl6NsQyp4oPCi2eKcGOvA494bwf1K/W6nGgZ9TwDqvpjdw==}
+  /@types/node@18.17.5:
+    resolution: {integrity: sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==}
     dev: true
 
   /@types/semver@7.5.0:
@@ -151,7 +151,7 @@ packages:
     resolution: {integrity: sha512-LOWgpacIV8GHhrsQU+QMZuomfqXiqzz3ILLkCtKx3Us6AmomFViuzKT9D693QTKgyut2oCytMG8/efOop+DB+w==}
     dependencies:
       '@types/cookiejar': 2.1.2
-      '@types/node': 18.17.4
+      '@types/node': 18.17.5
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.3.0(@typescript-eslint/parser@6.3.0)(eslint@8.47.0)(typescript@5.1.6):
@@ -337,7 +337,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       '@typescript-eslint/types': 5.62.0
-      eslint-visitor-keys: 3.4.2
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@typescript-eslint/visitor-keys@6.3.0:
@@ -345,7 +345,7 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
       '@typescript-eslint/types': 6.3.0
-      eslint-visitor-keys: 3.4.2
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.10.0):
@@ -818,11 +818,6 @@ packages:
     dependencies:
       esrecurse: 4.3.0
       estraverse: 5.3.0
-    dev: true
-
-  /eslint-visitor-keys@3.4.2:
-    resolution: {integrity: sha512-8drBzUEyZ2llkpCA67iYrgEssKDUu68V8ChqqOfFupIaG/LCVPUT+CoGJpT77zJprs4T/W7p07LP7zAIMuweVw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /eslint-visitor-keys@3.4.3:
@@ -1919,9 +1914,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/promise/eslint-config/8465168d478a90004c4897ee20f0030543c01d05(@typescript-eslint/eslint-plugin@6.3.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-i@2.27.5)(eslint-plugin-jest@27.2.3)(eslint-plugin-react@7.33.1)(eslint@8.47.0):
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/8465168d478a90004c4897ee20f0030543c01d05}
-    id: github.com/promise/eslint-config/8465168d478a90004c4897ee20f0030543c01d05
+  github.com/promise/eslint-config/909147788f2b4540444924b7958df4b71e006013(@typescript-eslint/eslint-plugin@6.3.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-i@2.27.5)(eslint-plugin-jest@27.2.3)(eslint-plugin-react@7.33.1)(eslint@8.47.0):
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/909147788f2b4540444924b7958df4b71e006013}
+    id: github.com/promise/eslint-config/909147788f2b4540444924b7958df4b71e006013
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:

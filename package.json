@@ -14,7 +14,7 @@
     "superagent": "8.1.2"
   },
   "devDependencies": {
-    "@tsconfig/node18": "18.2.0",
+    "@tsconfig/node18": "18.2.1",
     "@tsconfig/strictest": "2.0.1",
     "@types/node": "18.17.6",
     "@types/superagent": "4.1.18",

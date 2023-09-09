@@ -19,7 +19,7 @@
     "@types/node": "18.17.15",
     "@types/superagent": "4.1.18",
     "discord-api-types": "0.37.56",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "5.2.2"
   },

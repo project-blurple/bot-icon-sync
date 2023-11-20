@@ -21,7 +21,7 @@
     "discord-api-types": "0.37.64",
     "eslint": "8.54.0",
     "eslint-config-promise": "github:promise/eslint-config",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   },
   "eslintConfig": {
     "extends": "promise",

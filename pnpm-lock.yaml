@@ -20,8 +20,8 @@ devDependencies:
     specifier: 2.0.2
     version: 2.0.2
   '@types/node':
-    specifier: 18.19.7
-    version: 18.19.7
+    specifier: 18.19.8
+    version: 18.19.8
   '@types/superagent':
     specifier: 8.1.1
     version: 8.1.1
@@ -235,8 +235,8 @@ packages:
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
     dev: true
 
-  /@types/node@18.19.7:
-    resolution: {integrity: sha512-IGRJfoNX10N/PfrReRZ1br/7SQ+2vF/tK3KXNwzXz82D32z5dMQEoOlFew18nLSN+vMNcLY4GrKfzwi/yWI8/w==}
+  /@types/node@18.19.8:
+    resolution: {integrity: sha512-g1pZtPhsvGVTwmeVoexWZLTQaOvXwoSq//pTL0DHeNzUDrFnir4fgETdhjhIxjVnN+hKOuh98+E1eMLnUXstFg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -250,7 +250,7 @@ packages:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.16.0(@typescript-eslint/parser@6.16.0)(eslint@8.56.0)(typescript@5.3.3):

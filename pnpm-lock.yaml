@@ -23,8 +23,8 @@ devDependencies:
     specifier: 18.19.8
     version: 18.19.8
   '@types/superagent':
-    specifier: 8.1.1
-    version: 8.1.1
+    specifier: 8.1.2
+    version: 8.1.2
   discord-api-types:
     specifier: 0.37.67
     version: 0.37.67
@@ -245,8 +245,8 @@ packages:
     resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
     dev: true
 
-  /@types/superagent@8.1.1:
-    resolution: {integrity: sha512-YQyEXA4PgCl7EVOoSAS3o0fyPFU6erv5mMixztQYe1bqbWmmn8c+IrqoxjQeZe4MgwXikgcaZPiI/DsbmOVlzA==}
+  /@types/superagent@8.1.2:
+    resolution: {integrity: sha512-W5DhMdXNk1CF4Ij8p4/EYbAgZTRZt2IOmIDFbNBda4nu8OEKAwSB3m7irXi7ImFoUzyewfXvuCSs0u+L0Eqhrg==}
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4

@@ -10,7 +10,7 @@
     "start": "node ."
   },
   "dependencies": {
-    "dotenv": "16.4.3",
+    "dotenv": "16.4.4",
     "superagent": "8.1.2"
   },
   "devDependencies": {

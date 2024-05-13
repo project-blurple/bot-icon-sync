@@ -1,9 +1,9 @@
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
+import { inspect } from "util";
 import type { RESTError, RESTPatchAPICurrentUserJSONBody, RESTPatchAPICurrentUserResult } from "discord-api-types/v10";
 import { RouteBases, Routes } from "discord-api-types/v10";
 import { config } from "dotenv";
-import type request from "superagent";
 import superagent from "superagent";
 
 config();
@@ -29,9 +29,7 @@ superagent.patch(userRoute)
     if ("code" in body) return error(`Error ${body.code}: ${body.message}`);
     console.log("Successfully updated avatar");
   })
-  .catch((err: request.ResponseError) => {
-    error(`Failed to update avatar: ${err.response?.text ?? "Unknown error"}`);
-  });
+  .catch((err: unknown) => error(`Failed to update avatar: ${inspect(err)}`));
 
 function error(message: string) {
   console.error(message);

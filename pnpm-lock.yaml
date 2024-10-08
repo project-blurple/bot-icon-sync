@@ -20,8 +20,8 @@ devDependencies:
     specifier: 2.0.5
     version: 2.0.5
   '@types/node':
-    specifier: 18.19.54
-    version: 18.19.54
+    specifier: 18.19.55
+    version: 18.19.55
   '@types/superagent':
     specifier: 8.1.9
     version: 8.1.9
@@ -247,8 +247,8 @@ packages:
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
     dev: true
 
-  /@types/node@18.19.54:
-    resolution: {integrity: sha512-+BRgt0G5gYjTvdLac9sIeE0iZcJxi4Jc4PV5EUzqi+88jmQLr+fRZdv2tCTV7IHKSGxM6SaLoOXQWWUiLUItMw==}
+  /@types/node@18.19.55:
+    resolution: {integrity: sha512-zzw5Vw52205Zr/nmErSEkN5FLqXPuKX/k5d1D7RKHATGqU7y6YfX9QxZraUzUrFGqH6XzOzG196BC35ltJC4Cw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -262,7 +262,7 @@ packages:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 18.19.54
+      '@types/node': 18.19.55
       form-data: 4.0.0
     dev: true
 

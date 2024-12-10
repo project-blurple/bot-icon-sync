@@ -1,12 +1,12 @@
-import { existsSync, readFileSync } from "fs";
-import { join } from "path";
-import { inspect } from "util";
+/* eslint-disable no-console */
 import type { RESTError, RESTPatchAPICurrentUserJSONBody, RESTPatchAPICurrentUserResult } from "discord-api-types/v10";
 import { RouteBases, Routes } from "discord-api-types/v10";
-import { config } from "dotenv";
+import { existsSync, readFileSync } from "fs";
+import { join } from "path";
 import superagent from "superagent";
+import { inspect } from "util";
+import "dotenv/config";
 
-config();
 const { NAME = "", TOKEN = "" } = process.env;
 if (!NAME || !TOKEN) throw new Error("Missing environment variables");
 

@@ -21,7 +21,7 @@
     "@types/superagent": "8.1.9",
     "eslint": "9.21.0",
     "eslint-config-promise": "github:promise/eslint-config",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "packageManager": "pnpm@10.5.2"
 }

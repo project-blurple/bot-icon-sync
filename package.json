@@ -23,5 +23,5 @@
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "5.8.2"
   },
-  "packageManager": "pnpm@10.6.0"
+  "packageManager": "pnpm@10.6.1"
 }

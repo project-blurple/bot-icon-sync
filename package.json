@@ -17,7 +17,7 @@
   "devDependencies": {
     "@tsconfig/node22": "22.0.2",
     "@tsconfig/strictest": "2.0.5",
-    "@types/node": "22.15.31",
+    "@types/node": "22.15.32",
     "@types/superagent": "8.1.9",
     "eslint": "9.29.0",
     "eslint-config-promise": "github:promise/eslint-config",

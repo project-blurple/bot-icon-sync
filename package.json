@@ -10,7 +10,7 @@
     "start": "node ."
   },
   "dependencies": {
-    "discord-api-types": "0.38.17",
+    "discord-api-types": "0.38.18",
     "dotenv": "17.2.1",
     "superagent": "10.2.3"
   },

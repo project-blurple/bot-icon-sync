@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "discord-api-types": "0.38.22",
-    "dotenv": "17.2.1",
+    "dotenv": "17.2.2",
     "superagent": "10.2.3"
   },
   "devDependencies": {

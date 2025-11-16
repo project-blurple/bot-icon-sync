@@ -15,7 +15,7 @@
     "superagent": "10.2.3"
   },
   "devDependencies": {
-    "@tsconfig/node22": "22.0.3",
+    "@tsconfig/node22": "22.0.4",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.19.1",
     "@types/superagent": "8.1.9",

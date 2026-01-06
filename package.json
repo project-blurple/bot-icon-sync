@@ -12,7 +12,7 @@
   "dependencies": {
     "discord-api-types": "0.38.37",
     "dotenv": "17.2.3",
-    "superagent": "10.2.3"
+    "superagent": "10.3.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "22.0.5",

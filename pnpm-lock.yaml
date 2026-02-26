@@ -25,8 +25,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 22.19.11
-        version: 22.19.11
+        specifier: 22.19.12
+        version: 22.19.12
       '@types/superagent':
         specifier: 8.1.9
         version: 8.1.9
@@ -35,7 +35,7 @@ importers:
         version: 9.39.3(jiti@1.21.7)
       eslint-config-promise:
         specifier: github:promise/eslint-config
-        version: https://codeload.github.com/promise/eslint-config/tar.gz/2d823f9603ebbf0413bdfba36ed772844c96a92b(5a7d27deadc912a8727194c484a47e54)
+        version: https://codeload.github.com/promise/eslint-config/tar.gz/3982d0856c8f4108b3d0857724e8bdbc81888f0d(839f7da1d9ab3f1cb458b79f1aa6e42a)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -174,8 +174,8 @@ packages:
   '@types/methods@1.1.4':
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
 
-  '@types/node@22.19.11':
-    resolution: {integrity: sha512-BH7YwL6rA93ReqeQS1c4bsPpcfOmJasG+Fkr6Y59q83f9M1WcBRHR2vM+P9eOisYRcN3ujQoiZY8uk5W+1WL8w==}
+  '@types/node@22.19.12':
+    resolution: {integrity: sha512-0QEp0aPJYSyf6RrTjDB7HlKgNMTY+V2C7ESTaVt6G9gQ0rPLzTGz7OF2NXTLR5vcy7HJEtIUsyWLsfX0kTqJBA==}
 
   '@types/superagent@8.1.9':
     resolution: {integrity: sha512-pTVjI73witn+9ILmoJdajHGW2jkSaOzhiFYF1Rd3EQ94kymLqB9PjD9ISg7WaALC7+dCHT0FGe9T2LktLq/3GQ==}
@@ -522,8 +522,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/2d823f9603ebbf0413bdfba36ed772844c96a92b:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/2d823f9603ebbf0413bdfba36ed772844c96a92b}
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/3982d0856c8f4108b3d0857724e8bdbc81888f0d:
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/3982d0856c8f4108b3d0857724e8bdbc81888f0d}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -746,6 +746,10 @@ packages:
 
   globals@14.0.0:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
+    engines: {node: '>=18'}
+
+  globals@17.3.0:
+    resolution: {integrity: sha512-yMqGUQVVCkD4tqjOJf3TnrvaaHDMYp4VlUSObbkIiuCPe/ofdMBFIAcBbCSRFWOnos6qRiTVStDwqPLUclaxIw==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -1570,7 +1574,7 @@ snapshots:
 
   '@types/methods@1.1.4': {}
 
-  '@types/node@22.19.11':
+  '@types/node@22.19.12':
     dependencies:
       undici-types: 6.21.0
 
@@ -1578,7 +1582,7 @@ snapshots:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 22.19.11
+      '@types/node': 22.19.12
       form-data: 4.0.5
 
   '@typescript-eslint/eslint-plugin@8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.39.3(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.3(jiti@1.21.7))(typescript@5.9.3)':
@@ -2063,7 +2067,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/2d823f9603ebbf0413bdfba36ed772844c96a92b(5a7d27deadc912a8727194c484a47e54):
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/3982d0856c8f4108b3d0857724e8bdbc81888f0d(839f7da1d9ab3f1cb458b79f1aa6e42a):
     dependencies:
       '@stylistic/eslint-plugin-js': 4.2.0(eslint@9.39.3(jiti@1.21.7))
       '@stylistic/eslint-plugin-jsx': 4.2.0(eslint@9.39.3(jiti@1.21.7))
@@ -2076,7 +2080,7 @@ snapshots:
       eslint-plugin-perfectionist: 4.12.3(eslint@9.39.3(jiti@1.21.7))(typescript@5.9.3)
       eslint-plugin-react: 7.37.5(eslint@9.39.3(jiti@1.21.7))
       eslint-plugin-tailwindcss: 3.18.0(tailwindcss@3.4.19)
-      globals: 14.0.0
+      globals: 17.3.0
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -2354,6 +2358,8 @@ snapshots:
       is-glob: 4.0.3
 
   globals@14.0.0: {}
+
+  globals@17.3.0: {}
 
   globalthis@1.0.4:
     dependencies:

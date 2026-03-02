@@ -19,7 +19,7 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.19.13",
     "@types/superagent": "8.1.9",
-    "eslint": "9.39.3",
+    "eslint": "10.0.2",
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "5.9.3"
   },

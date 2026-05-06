@@ -535,7 +535,7 @@ packages:
     engines: {node: '>=10'}
 
   eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/45921d0e5d9bee222160e3358373e5d380f99153:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/45921d0e5d9bee222160e3358373e5d380f99153}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/45921d0e5d9bee222160e3358373e5d380f99153}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0

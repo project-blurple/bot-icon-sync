@@ -25,8 +25,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 22.20.0
-        version: 22.20.0
+        specifier: 22.20.1
+        version: 22.20.1
       '@types/superagent':
         specifier: 8.1.10
         version: 8.1.10
@@ -178,8 +178,8 @@ packages:
   '@types/methods@1.1.4':
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
 
-  '@types/node@22.20.0':
-    resolution: {integrity: sha512-QWlFW2wf3nTjC13/DqRnBpR4ZO36VJH/JVBkA/vcnmbTBNQIlnObqyqZE1tUR7+Ni23Lda8R1BxMfbXRpCUx5g==}
+  '@types/node@22.20.1':
+    resolution: {integrity: sha512-EANqOCF9QFyra+4pfxUcX9STKJpCLjMbObVzljIJomAWSnuSIEAvyzEU53GaajbXJEgdh0iEcPL+DGvpUd4k1Q==}
 
   '@types/superagent@8.1.10':
     resolution: {integrity: sha512-nbt4IWXABhW0jGmmpRzCFNlbmwCTzZ2gTUsNIr+X+ItdqPms+PAJZbWsNzpS2USqXjcoNLQcO6nXo60zcPQiIg==}
@@ -539,7 +539,7 @@ packages:
     engines: {node: '>=10'}
 
   eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
+    resolution: {gitHosted: true, integrity: sha512-qDWXd38Nxf4Yh2K/9KFnAu+3XCHZp0Ya8AsBuLDdlY8SIjHV1Fww28J95CLP7CCN+RazG24hvC7UzWvGMDVD1w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -1612,7 +1612,7 @@ snapshots:
 
   '@types/methods@1.1.4': {}
 
-  '@types/node@22.20.0':
+  '@types/node@22.20.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -1620,7 +1620,7 @@ snapshots:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
       form-data: 4.0.6
 
   '@typescript-eslint/eslint-plugin@8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.39.4(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.4(jiti@1.21.7))(typescript@5.9.3)':

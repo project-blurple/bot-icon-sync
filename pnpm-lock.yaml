@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       discord-api-types:
-        specifier: 0.38.54
-        version: 0.38.54
+        specifier: 0.38.55
+        version: 0.38.55
       dotenv:
         specifier: 17.4.2
         version: 17.4.2
@@ -480,8 +480,8 @@ packages:
   didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
 
-  discord-api-types@0.38.54:
-    resolution: {integrity: sha512-3704EKdPtVl0Mozoe6uBJQ8GNmUkH8c81nfXkdSBx+Um8GN3FI/003uTY0Pg0A4KjL8g2Q+4v5cHR247kv6vwA==}
+  discord-api-types@0.38.55:
+    resolution: {integrity: sha512-ytuaRTzdnHUCXJ6KjL9MrItQX0xKncBKEeYI1Bst4+ud47eejH3cG6gaesYakjpPcUhh68XYS2YwGq3mmujFsA==}
 
   dlv@1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
@@ -539,7 +539,7 @@ packages:
     engines: {node: '>=10'}
 
   eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
+    resolution: {gitHosted: true, integrity: sha512-qDWXd38Nxf4Yh2K/9KFnAu+3XCHZp0Ya8AsBuLDdlY8SIjHV1Fww28J95CLP7CCN+RazG24hvC7UzWvGMDVD1w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -1993,7 +1993,7 @@ snapshots:
 
   didyoumean@1.2.2: {}
 
-  discord-api-types@0.38.54: {}
+  discord-api-types@0.38.55: {}
 
   dlv@1.1.3: {}
 

@@ -19,8 +19,8 @@ importers:
         version: 10.4.1(supports-color@7.2.0)
     devDependencies:
       '@tsconfig/node24':
-        specifier: 24.0.0
-        version: 24.0.0
+        specifier: 24.0.5
+        version: 24.0.5
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -157,8 +157,8 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@tsconfig/node24@24.0.0':
-    resolution: {integrity: sha512-3/6Cr4dELEAucgPIr6ufY7yBYMi4ttZFOewABADNZ+bm4DUZl4dup2VBcBeP1ejj3QblrWVWux/1XcRv/ZVikA==}
+  '@tsconfig/node24@24.0.5':
+    resolution: {integrity: sha512-DWC54fGPuhZgg3Ighg4Y/A/bA3ZdB5hnzAuv/MkQ/X85sVsBsMQxu8t7khutdYeiNksBbFdDyeqv1HSW2Zl8aA==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -1596,7 +1596,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tsconfig/node24@24.0.0': {}
+  '@tsconfig/node24@24.0.5': {}
 
   '@tsconfig/strictest@2.0.8': {}
 

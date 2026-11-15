@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@tsconfig/node24": "24.0.0",
-    "@tsconfig/strictest": "2.0.8",
+    "@tsconfig/strictest": "2.0.9",
     "@types/node": "22.20.5",
     "@types/superagent": "8.1.11",
     "eslint": "9.39.5",

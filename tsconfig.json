@@ -1,6 +1,6 @@
 {
   "include": [ "./src" ],
-  "extends": ["@tsconfig/node24", "@tsconfig/strictest"],
+  "extends": ["@tsconfig/node26", "@tsconfig/strictest"],
   "compilerOptions": {
     "outDir": "./build",
     "experimentalDecorators": true
